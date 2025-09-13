@@ -1,0 +1,25 @@
+{
+  "name": "msstudents",
+  "version": "1.0.0",
+  "description": "ms Students CRUD",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon /src/app.js ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimmyAldas/msdatabase.git"
+  },
+  "author": "Jimmy Aldas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JimmyAldas/msdatabase/issues"
+  },
+  "homepage": "https://github.com/JimmyAldas/msdatabase#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mysql2": "^3.14.5",
+    "nodemon": "^3.1.10"
+  }
+}
