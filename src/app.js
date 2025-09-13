@@ -15,7 +15,7 @@ const db = mysql.createConnection({
     password: 'root', // Add your MySQL password
     database: 'appdist'
 });
-
+// Jimmy Aldas
 // Connect to MySQL
 db.connect((err) => {
     if (err) throw err;
